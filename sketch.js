@@ -20,9 +20,9 @@ function setup() {
     mouse = createVector();
     mousePrevious = createVector();
 
-    ({ game, objects } = setupGame(4));
+    ({ game, objects } = setupGame(3));
 
-    slider = createSlider(0, 15, 4, 1);
+    slider = createSlider(0, 15, 3, 1);
     slider.position(0, 0);
     slider.center("horizontal");
     slider.input(() => {
